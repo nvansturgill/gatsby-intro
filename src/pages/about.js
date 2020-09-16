@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 export default () => (
-  <>
+  <Layout>
     <h1>About this Repository</h1>
     <p>
       Deserunt cupidatat consectetur et in incididunt. Esse anim voluptate
@@ -12,5 +13,5 @@ export default () => (
       laborum officia adipisicing id eu.
     </p>
     <Link to="/">&larr; Return Home</Link>
-  </>
+  </Layout>
 );

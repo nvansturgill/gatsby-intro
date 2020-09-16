@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 export default () => (
-  <>
+  <Layout>
     <h1>Introduction to Gatsby</h1>
     <p>
       Culpa enim magna irure ut sit id officia in excepteur culpa est in.
@@ -14,5 +15,5 @@ export default () => (
       aliqua non veniam magna veniam ullamco laborum excepteur nisi consequat.
     </p>
     <Link to="/about/">Learn More &rarr;</Link>
-  </>
+  </Layout>
 );
