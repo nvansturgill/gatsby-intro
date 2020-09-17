@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 
 export default () => (
   <Layout>
-    <h1>Introduction to Gatsby</h1>
+    <h1>Gatsby JAMs</h1>
     <p>
       Culpa enim magna irure ut sit id officia in excepteur culpa est in.
       Reprehenderit magna fugiat veniam magna ipsum cupidatat enim ipsum.

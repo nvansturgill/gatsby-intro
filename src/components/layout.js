@@ -12,14 +12,15 @@ const Layout = ({ children }) => (
           color: #000;
           font-size: 16px;
           font-family: 'Montserrat', sans-serif;
+          margin: 1.4rem;
+          max-width: 90vw;
         }
         h1 {
           font-family: 'Lora', serif;
         }
       `}
     />
-    <header></header>
-    <main>{children}</main>
+    <main> {children} </main>{' '}
   </>
 );
 
